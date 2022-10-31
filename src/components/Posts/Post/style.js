@@ -31,13 +31,15 @@ export default makeStyles ({
         position: 'absolute',
     },
     overlay: {
-        paddingTop: '10px',
-        paddingLeft: '15px',
+        position: 'absolute',
+        top: '10px',
+        left: '15px',
         color: 'white',
     },
     overlay2: {
         color: 'white',
-        paddingTop: '10px'
+        right: '10px',
+        position: 'absolute',
     },
     grid: {
         display: 'flex',
