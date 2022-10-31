@@ -16,7 +16,7 @@ const App = () => {
     },[currentId, dispatch]);
     return(
         <Container maxwidth= "lg">
-            <AppBar className = {classes.appBar} position="static" color="inherit">
+            <AppBar className = {classes.appBar} position="static" color="inherit"  size="small">
                 <Typography className = {classes.heading} variant = "h2" align  = "center">Memories</Typography>
                 <img src={memories} alt="memories" height = "60" />
             </AppBar>
