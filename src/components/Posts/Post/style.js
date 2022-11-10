@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles ({
     media: {
         height: 0,
-        paddingTop: '80%',
+        paddingTop: '70%',
         backgroundColor: 'rgba(0, 0, 0, 0.5)',
         backgroundBlendMode: 'darken',
     },
@@ -21,7 +21,7 @@ export default makeStyles ({
         borderRadius: '10px',
         height: '80% !important',
         position: 'relative',
-        width:'95%',
+        width:'100%',
         backgroundColor:'#e9eef5',
     },
     flexContainer: {
@@ -53,15 +53,17 @@ export default makeStyles ({
         fontWeight: 'bold',
     },
     title: {
-        padding: '10px 10px',
-        paddingTop:'0px',
+        padding: '0px 10px',
     },
     messages: {
-        left: '0px',
+        padding: '8px 10px',
+        fontSize: '',
     },
     cardActions: {
-        padding: '0 16px 8px 16px',
+        // padding: '0 16px 8px 16px',
+        paddingTop:'12px',
         display: 'flex',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
+        color: 'red',
     }
 });

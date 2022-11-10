@@ -5,3 +5,13 @@ background-attachment: fixed;
 background-size: cover;
 /* color:#6a2d5d6f; */
 }
+
+.MuiCardContent-root {
+    padding: 0px !important;
+}
+
+@media screen and (min-width: 680px){
+    .mainContainer{
+        flex-direction: 'column-reverse'
+    }
+}
